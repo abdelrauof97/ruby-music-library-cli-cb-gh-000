@@ -64,6 +64,7 @@ class MusicLibraryController
     user_input = gets.strip
     if (1..Song.all.size).include?(user_input)
       puts "playing #{song.name} by #{song.artist.name}"
+      puts 
     end
   end
   
