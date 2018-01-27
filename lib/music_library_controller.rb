@@ -22,8 +22,8 @@ class MusicLibraryController
     puts "What would you like to do?"
     user_input = gets.strip
     case input 
-    until user_input == "exit" do 
-      user_input = gets.strip
+    when "exit" 
+      
     end
     
   end
